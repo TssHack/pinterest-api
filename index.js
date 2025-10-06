@@ -12,7 +12,7 @@ app.get("/", async (req, res) => {
   });
 });
 
-app.get("/", async (req, res) => {
+app.get("/beta", async (req, res) => {
   const { url } = req.query;
   if (!url) {
     return res.status(400).json({ error: "Missing url parameter" });
