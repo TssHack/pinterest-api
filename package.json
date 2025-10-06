@@ -1,0 +1,28 @@
+{
+  "name": "pinterest-scraper",
+  "version": "1.0.0",
+  "description": "Pinterest media scraper API written in Node.js for Vercel deployment",
+  "type": "module",
+  "main": "pinterestScraper.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.4",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "pinterest",
+    "scraper",
+    "api",
+    "nodejs",
+    "vercel"
+  ],
+  "author": "Ehsan Fazli",
+  "license": "MIT"
+}
